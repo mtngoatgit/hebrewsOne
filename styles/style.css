@@ -142,38 +142,28 @@ body {
 .resource-text span {
     font-family: 'Lobster', cursive;
     font-size: 22px;
+    color: #2a3132
 }
 /*home HTML*/
 .home-container {
-    /*text-align: center;*/
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
 }
-.instruct-other {
-    font-size: 30px;
-    margin-top: 15px;
-    margin-left: 15px;
-}
-.instruct-verse {
-    font-size: 30px;
-    margin-top: 40px;
-    margin-left: 300px;
-    /*margin-right: auto;*/
-    text-align: center;
-}
 .welcome {
     /*padding-top: 200px;*/
-    margin: 200px 50px 0px 200px;
+    margin: 20vh 50px 0px 10vw;
     font-family: 'Lobster', cursive;
     font-size: 100px;
     display: flex;
 }
 .welcome-word {
     margin-top: 120px;
+    color: #2a3132;
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.4;
 }
 .raison-contain {
     height: 200 px;
@@ -186,8 +176,19 @@ body {
     font-weight: 200;
     font-size: 25px;
     line-height: 60px;
-
+    color: #2a3132;
 }
+.raisondetre ul span {
+    color: white;
+     -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.1;
+}
+#pataguchi {
+     
+}
+
+
 
 
 /*verses HTML*/
@@ -209,7 +210,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
     margin-bottom: 15px;
-    border-bottom: 2px solid #E85530;
+    border-bottom: 2px solid #2a3132;
     text-align: center;
     padding: 30px 10px 15px 10px;
     line-height: 24px;
@@ -230,7 +231,7 @@ body {
     /*margin-top: 15vh;*/
     /*display: inline-block;*/
     /*border-style: solid;*/
-    border-left: 2px solid #E85530;
+    border-left: 2px solid #2a3132;
     margin-left: 40px;
 }
 /*.comm-togg {
@@ -251,8 +252,8 @@ body {
     margin-bottom: 30px;
     margin-right: 900px;
     color: white;
-    border-top: 2px solid #E85530;
-    border-right: 2px solid #E85530;
+    border-top: 2px solid #2a3132;
+    /*border-right: 2px solid #2a3132;*/
 }
 .commentary{
     width: 100%;
@@ -268,6 +269,10 @@ body {
     line-height: 30px;
     text-align: center;
 }
+.commentary h1 {
+    color: white;
+    font-weight: 500;
+}
 
 .commentary::-webkit-scrollbar {
     width: 3px;
@@ -278,7 +283,7 @@ body {
 }
 .commentary::-webkit-scrollbar-thumb {
     outline: none;
-    background-image: linear-gradient(-180deg, #556dac 0%, white 100%);
+    background-image: linear-gradient(-180deg,#e85530 0%,  white 100%);
     box-shadow: 0px 2px 4px 0px rgba(144,144,144,0.50);
 border-radius: 20px;
 }
@@ -296,8 +301,9 @@ border-radius: 20px;
     width: 85px;
     height: 30vh;
     margin-left: 15px;
-    margin-top: 100px;
+    margin-top: 25vh;
     text-align: right;
+    color: #2a3132;
 }
 .movie-container {
     margin-right: auto;
@@ -337,27 +343,20 @@ border-bottom: 1px solid #E85530;
     display: none;
 }
 
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0.7;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.7;
+    }
+}
 
-/*for my blinking cursor*/
-.typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-    height: 50%;
-}
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+/*media queries*/
+
+@media(min-width: 1100px){
+
 }
