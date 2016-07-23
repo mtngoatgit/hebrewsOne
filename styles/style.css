@@ -8,7 +8,7 @@ a {
 p {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
-  font-weight: 300;   
+  font-weight: 200;   
 }
 
 
@@ -31,6 +31,9 @@ body {
      margin-left: auto;
      margin-right: auto;
      padding-top: 5px;
+}
+#bar {
+    color: #2a3132;
 }
 #txt {
     font-family: 'Raleway', sans-serif;
@@ -86,15 +89,37 @@ body {
     /*box-shadow: 5px 5px 2px #556dac;*/
     /*padding: 0px 12px 0px 12px;*/
 }
-
+/*wtf HTML*/
+.wtf-main {
+    display: flex;
+    width: 100%;
+}
 .wtf-container {
-    margin-top: 80px;
+    /*display: flex;*/
+    margin-top: 16vh;
     /*margin-bottom: auto;*/
-    margin-left: auto;
-    margin-right: auto;
-    width: 85%;
-    text-align: center;
-    line-height: 20px;
+    margin-left: 20vw;
+    /*margin-right: 100px;*/
+    width: 60%;
+    text-align: right;
+    line-height: 35px;
+    border-right: 2px solid #E85530;
+    padding-right: 4vw;
+}
+.wtf-container span {
+    color: #2a3132;
+    font-size: 20px;
+}
+.vertical-wtf{
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    color: #E85530;
+    width: 60px;
+    margin-left: 4vw;
+    margin-top: 30vh;
+    display: flex;
+    line-height: 90px;
+
 }
 /*studyBreak HTML*/
 .video-container{

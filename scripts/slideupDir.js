@@ -7,22 +7,22 @@ angular.module('hebrewApp').directive('slideDir', function(){
                 })
             
             $('.verse-nav-butt').hover(function(){
-                $(this).css("background-color", "#68829e");
+                $(this).css("background-color", "#2a3132");
             }, function(){
                 $(this).css("background-color", "#e85530")
             })
 
             $(".nav-butt").hover(function(){
-                $(this).css("background-color", "#68829e");
+                $(this).css("background-color", "#2a3132");
             }, function(){
                 $(this).css("background-color", "#e85530")
             })
 
-             $("#home-butt").hover(function(){
-                $(this).css("background-color", "#82807F");
-            }, function(){
-                $(this).css("background", "none")
-            })
+            //  $("#home-butt").hover(function(){
+            //     $(this).css("background-color", "#2a3132");
+            // }, function(){
+            //     $(this).css("background", "none")
+            // })
 
             $(".comm-togg").hover(function(){
                 $(this).css("background-color", "#e85530")

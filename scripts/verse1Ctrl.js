@@ -6,7 +6,6 @@ angular
         $scope.getData = function(){
             mainSvc.getData().then(function(response){
                 $scope.verse1 = response.one;
-                console.log(response);
             })
         }
 
