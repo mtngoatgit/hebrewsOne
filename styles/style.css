@@ -84,10 +84,8 @@ body {
     height: 45px;
     width: 45px;
     border-radius: 100%;
-    font-family: 'Raleway', sans-serif;
     text-align: center;
-    /*box-shadow: 5px 5px 2px #556dac;*/
-    /*padding: 0px 12px 0px 12px;*/
+    font-size: 14px
 }
 /*wtf HTML*/
 .wtf-main {
@@ -96,7 +94,7 @@ body {
 }
 .wtf-container {
     /*display: flex;*/
-    margin-top: 16vh;
+    margin-top: 10vh;
     /*margin-bottom: auto;*/
     margin-left: 20vw;
     /*margin-right: 100px;*/
@@ -153,7 +151,7 @@ body {
 }
 .welcome {
     /*padding-top: 200px;*/
-    margin: 20vh 50px 0px 10vw;
+    margin: 16vh 10vw 0px 7vw;
     font-family: 'Lobster', cursive;
     font-size: 100px;
     display: flex;
@@ -168,14 +166,14 @@ body {
 .raison-contain {
     height: 200 px;
     border-left: 2px solid #E85530;
-    margin-left: 80px;
+    margin-left: 5vw;
 }
 .raisondetre {
     padding-left: 60px;
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
-    font-size: 25px;
-    line-height: 60px;
+    font-size: 21px;
+    line-height: 55px;
     color: #2a3132;
 }
 .raisondetre ul span {
@@ -243,12 +241,12 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
     /*letter-spacing: 1px;*/
-    font-size: 18px;
+    font-size: 17px;
     line-height: 27px;
     text-align: center;
     margin-left: 50px;
     height: 32px;
-    width: 15%;
+    width: 18%;
     margin-bottom: 30px;
     margin-right: 900px;
     color: white;
@@ -301,14 +299,38 @@ border-radius: 20px;
     width: 85px;
     height: 30vh;
     margin-left: 15px;
-    margin-top: 25vh;
+    margin-top: 23vh;
     text-align: right;
-    color: #2a3132;
+    color: white;
 }
+.ref-arrow {
+    margin-top: 40vh;
+    margin-left: 30vw;
+    
+}
+.ref-arrow h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    display: inline;
+    padding-left: 5vw;
+    font-size: 20px;
+}
+#subject {
+    color: #2a3132;
+    font-size: 25px;
+}
+.esc-movie {
+    display: none;
+}
+.esc-movie-text {
+    display: inline;
+}
+
+
 .movie-container {
     margin-right: auto;
     margin-left: auto;
-    margin-top: 30vh;
+    margin-top: 13vh;
 }
 .climb {
 border-bottom: 1px solid #E85530;
@@ -357,6 +379,14 @@ border-bottom: 1px solid #E85530;
 
 /*media queries*/
 
-@media(min-width: 1100px){
+@media(min-width: 1500px){
+    .welcome {
+         margin: 20vh 8vw 0px 9vw;
+    }
+    .raisondetre {
+        font-size: 30px;
+        line-height: 69px;
+    }
+
 
 }
