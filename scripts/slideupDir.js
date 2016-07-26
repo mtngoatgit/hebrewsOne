@@ -3,7 +3,7 @@ angular.module('hebrewApp').directive('slideDir', function(){
         restrict: "A",
         link: function(scope, element, attrs) {
             $('.comm-togg').on('click', function(){
-                $('.ling-comm').slideToggle();
+                $('.phil-comm').toggle()
                 })
             
             $('.verse-nav-butt').hover(function(){
@@ -92,22 +92,18 @@ angular.module('hebrewApp').directive('slideDir', function(){
             })
 
 
+            
+            //  $(".wtf-container").hover(function(){
+            //     $(this).css("background-color", "gray");
+            // }, function(){
+            //     $(this).css("background", "none");
+            // })
 
-            //     $(function() {        
-		    // $(".welcome-word").typed({
-			//     strings: ["welcome..."],
-			//     typeSpeed: 30,
-			//     showCursor: false
-		    // });
-            // })
-            //    $(function() {        
-		    // $(".choose-verse").typed({
-			//     strings: ["choose verses here"],
-			//     typeSpeed: 10,
-			//     showCursor: false
-		    // });
-            // })
-        
+
+                    
+            
+            
+
     }//end of link
 }
 })
