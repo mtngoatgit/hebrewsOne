@@ -1,0 +1,34 @@
+<main slide-dir class="verse-main">
+
+
+<section class="verse-container">
+
+    <div class="english-container">
+            {{ verse1.english }}
+    </div>
+    <div class="greek-container">
+            {{ verse1.greek }}
+    </div>
+</section>
+
+
+
+<section class="commentary-container">
+    <h2 class="comm-togg">toggle commentaries</h2>
+   
+    <div class="commentary">
+        <div class="ling-comm">
+            <h1 id="titulary">linguistic commentary</h1>
+            <div id="highlight" text-highlight-dir></div>
+        </div>
+        <div class="phil-comm">
+            <h1>philosophical commentary</h1>
+            <div>{{ verse1.philosophical }}</div>
+        </div>
+    </div>
+    
+        
+
+
+
+</main>

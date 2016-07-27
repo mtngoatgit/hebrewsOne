@@ -1,0 +1,18 @@
+Overview
+    problem: make something unsexy, sexy
+        secondary: make it usable
+    UI: reward the user for interaction
+
+Technologies:
+    angular: 
+        8 routes
+        3 directives
+            *for movies
+            *for text and button highlight
+            *to loop through text and alter features
+    jQuery: used alot through my directives
+    HTML & CSS
+
+
+
+

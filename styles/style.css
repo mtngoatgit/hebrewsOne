@@ -1,0 +1,433 @@
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Lobster', cursive;*/
+
+a {
+    text-decoration: none;
+    color: white;
+}
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 200;   
+}
+
+
+body {
+    /*darker image*/
+    background-image: url("https://mtngoatregister.files.wordpress.com/2016/07/patagonia_background.png"); 
+    /*lighter image*/
+    /*background-image: url("https://mtngoatregister.files.wordpress.com/2016/07/patagonia-water-lighter.png");*/
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+.surfer {
+    background-image: url("https://mtngoatregister.files.wordpress.com/2016/07/bestever.png?w=676");
+}
+
+.title {
+    text-align: center;
+    /*display: flex;*/
+    position: relative;
+
+}
+.title h1 {
+     font-family: 'Lobster', cursive;
+     font-size: 30px;
+     margin-left: auto;
+     margin-right: auto;
+     padding-top: 5px;
+}
+#bar {
+    color: #2a3132;
+}
+#txt {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+#camera-icon {
+    float: right;
+    margin-right: 2vw;
+    margin-top: 2vh;
+    font-size: 10px;
+}
+.mini-nav {
+    position: fixed;
+    float: left;
+    margin-left: 5px;
+    /*display: inline-block;*/
+}
+.nav-butt{
+    background-color: #E85530;
+    color: white;
+    font-size: 12px;
+    border-radius: 2px;
+    padding: 2px 8px;
+    margin-bottom: 2px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
+
+#wtf {
+    margin-left: 46px;
+}
+#res {
+    margin-left: 10px;
+}
+#brk {
+    /*margin-left: 8px;*/
+}
+.verse-nav {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 45px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
+.verse-nav-butt{
+    background-color: #E85530;
+    border: none;
+    color: white;
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 14px
+}
+/*wtf HTML*/
+.wtf-main {
+    display: flex;
+    width: 100%;
+}
+.wtf-container {
+    /*display: flex;*/
+    margin-top: 10vh;
+    /*margin-bottom: auto;*/
+    margin-left: 13vw;
+    /*margin-right: 100px;*/
+    width: 70%;
+    text-align: right;
+    line-height: 35px;
+    border-right: 2px solid #E85530;
+    padding-right: 4vw;
+    margin-bottom: 2vh;
+}
+.wtf-container span {
+    color: #2a3132;
+    font-size: 20px;
+}
+.vertical-wtf{
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    color: #E85530;
+    width: 60px;
+    margin-left: 4vw;
+    margin-top: 30vh;
+    display: flex;
+    line-height: 90px;
+
+}
+/*studyBreak HTML*/
+.video-container{
+    width: 90%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+/*resource HTML*/
+.resource-container {
+    text-align: center;
+    line-height: 60px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.resource-text span {
+    font-family: 'Lobster', cursive;
+    font-size: 22px;
+    color: #2a3132
+}
+
+#book-button :hover {
+    color: red;
+}
+
+
+
+/*home HTML*/
+.home-container {
+    width: 100%;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
+.welcome {
+    /*padding-top: 200px;*/
+    margin: 16vh 10vw 0px 7vw;
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+    display: flex;
+}
+.welcome-word {
+    margin-top: 120px;
+    color: #2a3132;
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.4;
+}
+.raison-contain {
+    height: 200 px;
+    border-left: 2px solid #E85530;
+    margin-left: 5vw;
+}
+.raisondetre {
+    padding-left: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 21px;
+    line-height: 55px;
+    color: #2a3132;
+}
+.raisondetre ul span {
+    color: white;
+     -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.1;
+}
+#pataguchi {
+     
+}
+
+/*verses HTML*/
+.verse-main {
+    margin-top: 100px;
+    height: 85vh;
+    display: flex;
+}
+.verse-container{
+    width: 25%;
+    height: 95%;
+    /*margin: 15px;*/
+    margin-left: 15px
+}
+.english-container {
+    width: 100%;
+    height: 45%;
+    /*border: #848586 solid 2px;*/
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 30px 10px 15px 10px;
+    line-height: 24px;
+    overflow: scroll; 
+}
+.greek-container {
+    width: 100%;
+    height: 45%;
+    border-top: 2px solid #2a3132;
+    /*border: #848586 solid 2px;*/
+    text-align: center;
+    padding: 30px 10px 0px 10px;
+    line-height: 24px;
+    overflow: scroll; 
+}
+.commentary-container {
+    width: 70%;
+    height: 60vh;
+    /*margin-top: 15vh;*/
+    /*display: inline-block;*/
+    /*border-style: solid;*/
+    border-left: 2px solid #2a3132;
+    margin-left: 40px;
+}
+.comm-togg {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    margin-left: 50px;
+    height: 32px;
+    width: 18%;
+    margin-bottom: 30px;
+    margin-right: 900px;
+    color: white;
+    border-top: 2px solid #2a3132;
+}
+.commentary{
+    width: 100%;
+    height: 90%;
+    /*border: #848586 solid 2px;*/
+    padding-left: 60px;
+    padding-right: 60px;
+    /*padding: 20px 20px;*/
+    overflow: scroll; 
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 200;
+    line-height: 40px;
+    text-align: center;
+}
+.commentary h1 {
+    color: white;
+    font-weight: 500;
+}
+/*this is the class I will import through my directive function*/
+
+.highlight {
+    color: #E85530;
+    font-size: 20px;
+}
+#highlight :hover {
+    color: #E85530;
+}
+.orange {
+    background-color: #E85530;   
+}
+
+
+.commentary::-webkit-scrollbar {
+    width: 3px;
+    
+}
+.commentary::-webkit-scrollbar-track {
+    background: white;
+}
+.commentary::-webkit-scrollbar-thumb {
+    outline: none;
+    background-color: #2a3132;
+}
+
+/*study break*/
+.study-break {
+    display: flex;
+}
+
+.movie-buttons {
+    font-family: 'Raleway', sans-serif; 
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    width: 85px;
+    height: 30vh;
+    margin-left: 15px;
+    margin-top: 23vh;
+    text-align: right;
+    color: white;
+}
+.ref-arrow {
+    margin-top: 40vh;
+    margin-left: 30vw;
+    
+}
+.ref-arrow h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    display: inline;
+    padding-left: 5vw;
+    font-size: 20px;
+}
+#subject {
+    color: #2a3132;
+    font-size: 25px;
+}
+.esc-movie {
+    display: none;
+}
+.esc-movie-text {
+    display: inline;
+}
+
+
+.movie-container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 13vh;
+}
+.climb {
+border-bottom: 1px solid #E85530;
+    border-right:1px solid #E85530;
+}
+.run {
+border-bottom: 1px solid #E85530;
+    border-right:1px solid #E85530;
+    margin-top: 75px;
+}
+.sail {
+border-bottom: 1px solid #E85530;
+    border-right:1px solid #E85530;
+    margin-top: 75px;
+}
+.bravado {
+border-bottom: 1px solid #E85530;
+    border-right:1px solid #E85530;
+    margin-top: 75px;
+}
+
+.climb-video {
+    display: none;
+}
+.run-video {
+    display: none;
+}
+.sail-video {
+    display: none;
+}
+.bravado-video {
+    display: none;
+}
+
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0.7;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.7;
+    }
+}
+footer {
+    height: 10px;
+}
+
+/*media queries*/
+
+@media(min-width: 1500px){
+    .welcome {
+         margin: 20vh 8vw 0px 9vw;
+    }
+    .raisondetre {
+        font-size: 30px;
+        line-height: 69px;
+    }
+    .wtf-text {
+    font-size: 20px;
+    }
+    .wtf-container span {
+    color: #2a3132;
+    font-size: 28px;
+    }
+    .vertical-wtf{
+    font-size: 70px;
+    font-family: 'Lobster', cursive;
+    color: #E85530;
+    width: 90px;
+    margin-left: 4vw;
+    margin-top: 30vh;
+    display: flex;
+    line-height: 110px;
+    }
+
+
+}

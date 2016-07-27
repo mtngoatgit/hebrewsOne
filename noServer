@@ -1,0 +1,46 @@
+**PARAMETERS:
+end of next tuesday
+3 routes (pages)
+2 directives
+    can do a template
+    one has to have js and a controller and a link
+    (collapse, etc)
+find a problem to solve
+guidelines
+    MVP- minimum viable product. Solve the problem, and delay the bonus features. Aim small--and if you hit it, then move beyond. Don't set too high a bar.
+    spend time planning and thinking
+        wireframe
+    task management apps - every company uses one.
+        trello.
+    try and use as many of the skills you have learned, push to use your skills
+    JSON server - make your own
+
+
+**BRAINSTORM
+MAIN IDEA: Hebrews Commentary
+PROBLEM TO SOLVE: 
+    1) External 
+        a) make something unsexy sexy
+            * use images? if so what kind?
+        b) make it easy for the customy to work with text and commentary 
+    2) Internal
+        a) how to I make elements of a text document available for the controller/service
+MVP: Customer should be able to navigate between these following partials
+    1) Greek text
+    2) English text
+    3) language commentary
+    4) philosophical commentary
+    5) and reference/about pages 
+Polish:
+    1) typedJS for the title (at least)
+Optional Stuff:
+    1) search
+    2) links from the resources to external representations
+
+**TO DO
+create a wireframe
+create a JSON server
+I'll need to do an overflow property on the commentary,
+
+
+highlight text via directive?
