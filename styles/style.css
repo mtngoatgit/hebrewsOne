@@ -183,6 +183,14 @@ body {
     -webkit-animation-iteration-count: infinite; 
     opacity: 0.4;
 }
+#disclaimer {
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    position: fixed;
+    bottom: 20px;
+    right: 40vw;
+}
 .raison-contain {
     height: 200 px;
     border-left: 2px solid #E85530;
