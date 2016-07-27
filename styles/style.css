@@ -411,6 +411,23 @@ footer {
         font-size: 30px;
         line-height: 69px;
     }
+    .wtf-text {
+    font-size: 20px;
+    }
+    .wtf-container span {
+    color: #2a3132;
+    font-size: 28px;
+    }
+    .vertical-wtf{
+    font-size: 70px;
+    font-family: 'Lobster', cursive;
+    color: #E85530;
+    width: 90px;
+    margin-left: 4vw;
+    margin-top: 30vh;
+    display: flex;
+    line-height: 110px;
+    }
 
 
 }
