@@ -3,10 +3,10 @@
 
 <section class="verse-container">
 
-    <div slide-dir class="english-container">
+    <div class="english-container">
             {{ verse1.english }}
     </div>
-    <div slide-dir class="greek-container">
+    <div class="greek-container">
             {{ verse1.greek }}
     </div>
 </section>
@@ -14,16 +14,16 @@
 
 
 <section class="commentary-container">
-    <h2 slide-dir class="comm-togg">toggle commentaries</h2>
+    <h2 class="comm-togg">toggle commentaries</h2>
    
     <div class="commentary">
         <div class="ling-comm">
             <h1 id="titulary">linguistic commentary</h1>
-            <p text-highlight-dir class="tyler"> {{newGreek}} </p>
+            <div id="highlight" text-highlight-dir></div>
         </div>
         <div class="phil-comm">
             <h1>philosophical commentary</h1>
-            <p>{{ verse1.philosophical }}</p>
+            <div>{{ verse1.philosophical }}</div>
         </div>
     </div>
     

@@ -12,5 +12,4 @@ angular
 $scope.getData();
 
 
-
 });//end of controller

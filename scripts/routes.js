@@ -4,13 +4,10 @@ angular
 
     $urlRouterProvider.otherwise("/");
 
-            //We need to configure our routes here
-
         $stateProvider
             .state('home', {
                     url: "/",
                     templateUrl: "views/home.html",
-                 //don't think I need a controller for this, at least not yet
             })
             .state('wtf', {
                     url: "/wtf",

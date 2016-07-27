@@ -3,7 +3,7 @@ angular.module('hebrewApp').directive('slideDir', function(){
         restrict: "A",
         link: function(scope, element, attrs) {
             $('.comm-togg').on('click', function(){
-                $('.phil-comm').toggle()
+                $('.ling-comm').toggle()
                 })
             
             $('.verse-nav-butt').hover(function(){
@@ -32,30 +32,26 @@ angular.module('hebrewApp').directive('slideDir', function(){
             })
 
             $(".english-container").hover(function(){
-                $(this).css("background-color", "#2a3132");
+                $(this).css("background-color", "#E85530");
             }, function(){
                 $(this).css("background", "none")
             })
 
              $(".greek-container").hover(function(){
-                $(this).css("background-color", "#2a3132");
+                $(this).css("background-color", "#E85530");
             }, function(){
                 $(this).css("background", "none")
             })
              $(".ling-comm").hover(function(){
-                $(this).css("background-color", "#2a3132");
-                $('#titulary').css("color", "white");
+                $(this).css("background-color", "#E85530")
             }, function(){
                 $(this).css("background", "none")
-                $('#titulary').css("color", "#2a3132");
             })
 
               $(".phil-comm").hover(function(){
-                $(this).css("background-color", "#2a3132");
-                $('#titulary').css("color", "white");
+                $(this).css("background-color", "#E85530");
             }, function(){
                 $(this).css("background", "none")
-                $('#titulary').css("color", "#2a3132");
             })
 
               $(".climb").hover(function(){
